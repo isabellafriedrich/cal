@@ -1,0 +1,54 @@
+body{
+    background-color: #a9b388;
+}
+
+h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace ;
+    color: antiquewhite;
+}
+
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+h3{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: antiquewhite;
+}
+
+.R{
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.ω{
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.T{
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+button{
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: #a9b388;
+    padding: 10px;
+    color: rgb(58, 148, 98);
+
+}
