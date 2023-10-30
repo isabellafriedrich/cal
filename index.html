@@ -2,35 +2,40 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Movimento Circular Uniforme</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Define a configuração da viewport para dispositivos móveis.-->
+    <script src="script.js"></script> <!-- Inclui o arquivo "script.js". -->
+    <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo "style.css". -->
+    <title>Calculadora de Movimento Circular</title> <!-- Define o título da página exibido na aba do navegador. -->
 </head>
+
 <body>
-    <h1>CALCULADORA</h1>
-    <h2>Movimento Circular Uniforme</h2>
-    <form action="#" method="post"  id="formulario">
-    
-    <div class="R" id="R">
-       <label for="raio">Raio (m)        <input type="number"></label>
+    <h1>Calculadora de Movimento Circular</h1> <!-- Título principal da página. -->
+
+    <br> <!-- Espaço. -->
+    <br>
+
+    <div class="r"> <!-- Separa uma classe para r (raio). -->
+        <label for="raio">Raio (m)<input type="number" name="raio"></label>
+        <!-- Um campo de entrada de número para inserir o raio. -->
     </div>
 
-    <div class="ω" id="ω">
-       <label for="velocidadeAngular">Velocidade angular (rad/s)        <input type="number"></label>
+    <br>
+
+    <div class="v"> <!-- Separa uma classe para v (velocidade). -->
+        <label for="velocidade">Velocidade (rad/s)<input type="number" name="velocidade"></label>
+        <!-- Um campo de entrada de número para inserir a velocidade. -->
     </div>
 
-    <div class="T" id="T">
-        <label for="tempo">Tempo (s)        <input type="number"></label>
-    </div>
+    <br>
+    <br>
 
-     <button type="button"   id="calcular">Calcule!</button>
-    </form>
+    <button class="botao" type="button" onclick="calcular()">Calcular</button>
+    <!-- Um botão que chama a função "calcular" quando clicado. -->
+    <!-- onclick: executa determinada funcionalidade quando um botão é clicado.. -->
 
-    <div>
-        <h3>RESULTADO</h3>
-        <p id="resultado"></p>
-    </div>
+    <br>
+
+    <h2>Resultado:</h2> <!-- Título secundário para o resultado. -->
+    <p id="aceleracaoCentripeta"></p> <!-- Um parágrafo com um ID "aceleracaoCentripeta" para exibir o resultado. -->
 </body>
 </html>
